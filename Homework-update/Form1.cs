@@ -42,10 +42,10 @@ namespace Homework_update
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int nr = 0;
-            if (Int32.TryParse(textBox1.Text,out nr))
+            int number = 0;
+            if (Int32.TryParse(textBox1.Text,out number))
             {
-                string result = nr.ToWords(new System.Globalization.CultureInfo(language[comboBox1.SelectedIndex]));
+                string result = number.ToWords(new System.Globalization.CultureInfo(language[comboBox1.SelectedIndex]));
                 MessageBox.Show(result);
             }
             else
