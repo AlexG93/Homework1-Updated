@@ -12,9 +12,12 @@ namespace Homework_update
 {
     public partial class Form1 : Form
     {
+        public List<string> lang = new List<string> { "en", "fr", "de", "es","it" };
+
         public Form1()
         {
             InitializeComponent();
+            comboBox1.SelectedIndex = 0;
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
