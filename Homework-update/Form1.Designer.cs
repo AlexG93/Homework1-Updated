@@ -39,7 +39,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 47);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Translate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -52,16 +52,16 @@
             "Deutch",
             "Spanish",
             "Italian"});
-            this.comboBox1.Location = new System.Drawing.Point(91, 124);
+            this.comboBox1.Location = new System.Drawing.Point(74, 101);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(131, 21);
             this.comboBox1.TabIndex = 1;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(91, 36);
+            this.textBox1.Location = new System.Drawing.Point(100, 38);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(85, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
